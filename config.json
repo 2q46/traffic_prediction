@@ -1,0 +1,16 @@
+{ 
+    "distance_filename": "data/dist.csv",
+    "graph_signal_path":"data/pems04.npz",
+
+    "num_of_vertices": 307,
+    "n_features": 3,
+    
+    "points_per_hour": 12,
+    "num_for_predict": 12,
+    "n_history": 12,
+
+    "epochs": 100,
+    "batch_size": 16,
+    "cheb_polynomials": 3,
+    "lr": 1e-3
+}
